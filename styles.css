@@ -1046,3 +1046,46 @@
           @media (max-width: 1100px) { .mv-cardio { grid-template-columns: 1fr 1fr; } .mv-exercises { grid-template-columns: 1fr 1fr; } }
           @media (max-width: 768px) { .mv-daily { grid-template-columns: 1fr; } .mv-cardio { grid-template-columns: 1fr; } .mv-exercises { grid-template-columns: 1fr; } }
 
+
+          /* ──── VISUAL WEEKLY SCHEDULE GRID ──── */
+          .week-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin: 16px 0 24px; }
+          .week-day {
+            display: flex; flex-direction: column; border-radius: 12px;
+            border: 1px solid var(--border); overflow: hidden; min-height: 140px;
+          }
+          .week-day-header {
+            padding: 8px 10px 6px; font-size: 11px; font-weight: 800; letter-spacing: 0.08em;
+            text-transform: uppercase; text-align: center;
+          }
+          .week-day-body { padding: 10px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
+          .week-day-cuisine {
+            font-size: 9px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+            padding: 3px 7px; border-radius: 20px; display: inline-block; align-self: flex-start;
+          }
+          .week-day-method { font-size: 10px; color: var(--text-dim); display: flex; align-items: center; gap: 4px; margin-top: 2px; }
+          .week-day-meal { font-size: 11px; color: var(--text); line-height: 1.4; margin-top: 4px; font-weight: 500; flex: 1; }
+          .week-day-budget { font-size: 10px; color: var(--text-dim); margin-top: auto; padding-top: 6px; font-style: italic; }
+
+          /* Day type colour schemes */
+          .week-day-med .week-day-header { background: rgba(34,211,238,0.12); color: var(--mediterranean); }
+          .week-day-med .week-day-cuisine { background: rgba(34,211,238,0.12); color: var(--mediterranean); }
+          .week-day-med { background: rgba(34,211,238,0.03); }
+
+          .week-day-indian .week-day-header { background: rgba(251,146,60,0.12); color: var(--indian); }
+          .week-day-indian .week-day-cuisine { background: rgba(251,146,60,0.12); color: var(--indian); }
+          .week-day-indian { background: rgba(251,146,60,0.03); }
+
+          .week-day-flex .week-day-header { background: rgba(108,99,255,0.12); color: var(--accent); }
+          .week-day-flex .week-day-cuisine { background: rgba(108,99,255,0.12); color: var(--accent); }
+          .week-day-flex { background: rgba(108,99,255,0.03); }
+
+          .week-day-dash .week-day-header { background: rgba(100,116,139,0.14); color: var(--text-dim); }
+          .week-day-dash .week-day-cuisine { background: rgba(100,116,139,0.12); color: var(--text-dim); }
+          .week-day-dash { background: rgba(100,116,139,0.025); }
+
+          [data-theme="light"] .week-day { background: #fff; }
+          [data-theme="light"] .week-day-med, [data-theme="light"] .week-day-indian,
+          [data-theme="light"] .week-day-flex, [data-theme="light"] .week-day-dash { background: #fafafa; }
+
+          @media (max-width: 900px) { .week-grid { grid-template-columns: repeat(4, 1fr); } }
+          @media (max-width: 600px) { .week-grid { grid-template-columns: repeat(2, 1fr); } }
