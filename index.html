@@ -1175,7 +1175,7 @@
     <div class="sub-header" onclick="toggleSub(this.parentElement)"><span class="sub-icon">&#127859;</span> Breakfast</div>
     <div class="sub-content">
     <p class="bf-intro">Skipping breakfast and running on Amino Energy isn&rsquo;t fasting &mdash; it&rsquo;s under-eating that fuels the afternoon crash &rarr; evening binge &rarr; repeat cycle. <strong>Real protein + fiber + fat in the morning breaks the loop.</strong></p>
-    <p class="bf-tagline">Two options only. Decision fatigue is the enemy of showing up.</p>
+    <p class="bf-tagline">Four foundational options. Pick 1&ndash;2 to anchor the rotation. The bar is "I ate" &mdash; not "I picked optimally."</p>
 
     <div class="bf-meals-label">Weekday rotation &mdash; pick your days</div>
     <div class="bf-meals">
@@ -1223,6 +1223,53 @@
           <span class="bf-ingredient">Arugula + olive oil &amp; lemon</span>
         </div>
         <div class="bf-note">Cooked onion = great. Raw onion = hard no. Arugula is the one raw-green exception.</div>
+      </div>
+
+      <div class="bf-meal bf-meal-eggs">
+        <div class="bf-meal-top">
+          <span class="bf-meal-icon">&#129365;</span>
+          <div class="bf-meal-header">
+            <div class="bf-meal-name">Avocado Toast + Egg <span class="bf-badge-new">NEW</span></div>
+            <div class="bf-meal-days">Anytime swap</div>
+          </div>
+        </div>
+        <div class="bf-badges">
+          <span class="bf-badge bf-badge-time">&#9201; 5 min</span>
+          <span class="bf-badge bf-badge-cal">~420 cal</span>
+        </div>
+        <div class="bf-ingredients-label">What goes in</div>
+        <div class="bf-ingredients">
+          <span class="bf-ingredient">1 slice sourdough (toasted)</span>
+          <span class="bf-ingredient">&frac12; ripe avocado (mashed with lemon + salt)</span>
+          <span class="bf-ingredient">1 fried or poached egg</span>
+          <span class="bf-ingredient">Pinch flake salt + chili crisp</span>
+          <span class="bf-ingredient">Sliced cherry tomatoes (optional)</span>
+        </div>
+        <div class="bf-note">The "I'm not in the mood for yogurt or scrambled eggs" rescue. 25g protein with the egg, 12g fiber from sourdough + avocado. Chili crisp is the move.</div>
+      </div>
+
+      <div class="bf-meal bf-meal-yogurt">
+        <div class="bf-meal-top">
+          <span class="bf-meal-icon">&#129380;</span>
+          <div class="bf-meal-header">
+            <div class="bf-meal-name">Berry Power Smoothie <span class="bf-badge-new">NEW</span></div>
+            <div class="bf-meal-days">Hot day / desk-eat</div>
+          </div>
+        </div>
+        <div class="bf-badges">
+          <span class="bf-badge bf-badge-time">&#9201; 4 min</span>
+          <span class="bf-badge bf-badge-cal">~380 cal</span>
+        </div>
+        <div class="bf-ingredients-label">What goes in</div>
+        <div class="bf-ingredients">
+          <span class="bf-ingredient">1 cup unsweetened almond or oat milk</span>
+          <span class="bf-ingredient">1 scoop vanilla protein powder (25g+)</span>
+          <span class="bf-ingredient">&frac12; cup frozen mixed berries</span>
+          <span class="bf-ingredient">&frac12; banana</span>
+          <span class="bf-ingredient">1 tbsp natural PB</span>
+          <span class="bf-ingredient">1 tbsp ground flax + handful raw spinach (blended &mdash; not wilted)</span>
+        </div>
+        <div class="bf-note">Drink-it-at-your-desk option for back-to-back meeting days. Blended spinach is fine (cooked/wilted is the no). 30g+ protein, 8g fiber.</div>
       </div>
     </div>
 
@@ -1888,6 +1935,102 @@
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-day">POWER BOWL</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Mediterranean Power Bowl</div>
+              <div class="recipe-meta"><span>Assembly: 5 min</span><span>From batch</span><span>Serves: 1</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1/2 cup cooked basmati or quinoa</li>
+                <li>4&ndash;5 oz batch protein: za&rsquo;atar chicken OR garlic shrimp OR Greek lemon chicken</li>
+                <li>2 handfuls arugula, 1/4 cup hummus (smear on bowl edge)</li>
+                <li>1/4 cup cherry tomatoes, 2 tbsp pickled red onions, 5 kalamata olives</li>
+                <li>2 tbsp tzatziki + 1 tbsp tahini sauce drizzle</li>
+                <li>Sumac + olive oil + lemon wedge</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Smear hummus on one side of bowl. Pile rice opposite.</li>
+                <li>Air fryer protein 4 min for the crispy reheat. Pile on top of rice.</li>
+                <li>Arugula across the gap. Scatter tomatoes, olives, pickled onion.</li>
+                <li>Drizzle tzatziki + tahini, dust sumac, finish olive oil + lemon. The most condiment-dense bowl in the rotation.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-day">WRAP / DESK</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Tikka Wrap (Naan-Wrapped)</div>
+              <div class="recipe-meta"><span>Assembly: 5 min</span><span>From batch</span><span>Serves: 1</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 large naan (warmed)</li>
+                <li>4 oz masala chicken or tandoori shrimp (sliced if chicken)</li>
+                <li>2 tbsp plain yogurt + pinch garam masala (instant raita)</li>
+                <li>1 tbsp mango achaar OR cilantro-mint chutney</li>
+                <li>Handful arugula, slivered red onion (soaked 5 min in water)</li>
+                <li>Squeeze of lime, dash of chili crisp (optional)</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Warm naan air fryer 60 sec at 375&deg;F or dry pan 30 sec/side.</li>
+                <li>Smear yogurt-masala down the center, then achaar.</li>
+                <li>Layer chicken or shrimp, arugula, onion. Squeeze lime, optional chili crisp.</li>
+                <li>Roll, slice on diagonal. Wrap bottom half in foil for clean desk eating. Travel-friendly.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-day">CURRY BOWL</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Leftover Curry Rice Bowl</div>
+              <div class="recipe-meta"><span>Assembly: 5 min</span><span>From any batch curry</span><span>Serves: 1</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>3/4 cup cooked basmati rice</li>
+                <li>3/4 cup leftover curry &mdash; Butter Chicken, Dal Makhani, Rajma, Chana Masala, Tikka, Korma, anything</li>
+                <li>Handful arugula, 2 tbsp plain yogurt</li>
+                <li>1 tbsp achaar (mango, lime, or garlic), pinch chili crisp</li>
+                <li>Cilantro, lemon wedge, toasted papad if you have it</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Microwave rice 60 sec, curry 90 sec.</li>
+                <li>Bowl: rice base, ladle curry over half. Arugula on the rice side.</li>
+                <li>Yogurt dollop, achaar swipe, chili crisp dot, cilantro shower, lemon squeeze.</li>
+                <li>The "I made nothing today" lunch &mdash; literally just leftover curry presented well.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">This bowl multiplies your batch yield. Every Phase 3+ crock pot recipe becomes 8+ lunches with this template.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
     </div>
 
     <div style="margin:32px 0 16px;padding-top:24px;border-top:1px solid var(--border);">
@@ -2045,6 +2188,100 @@
                 <li>Stores 3 days. Reheat in dry pan to keep texture. Umami bomb on bowls, eggs, toast, anything.</li>
               </ol>
               <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">The crowd-of-overlap-ingredients move: butter + garlic are already on every shopping list. This is a 6-minute side that elevates an entire bowl.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-airfryer">Air Fryer</span>
+                <span class="recipe-tag recipe-tag-day">VEG SIDE</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Crispy Air Fryer Broccoli</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 10 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 head broccoli (cut into florets &mdash; smaller bite-sized pieces crisp better)</li>
+                <li>2 tbsp olive oil, 4 cloves garlic (smashed not minced &mdash; less burning)</li>
+                <li>1/2 tsp salt, 1/2 tsp black pepper, 1/4 tsp red pepper flakes</li>
+                <li>For finish: juice of 1/2 lemon, 2 tbsp grated parmesan or nutritional yeast, optional pinch of sumac</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Toss broccoli + olive oil + garlic + salt + pepper + red pepper flakes until evenly coated.</li>
+                <li>Air fryer 400&deg;F, 9&ndash;10 min, shake basket once at 5 min. Edges should char.</li>
+                <li>Off heat: lemon juice + parmesan + sumac. Stores 3 days &mdash; reheat in air fryer to revive crisp.</li>
+                <li>Goes in: lunch bowls, alongside any protein, eaten cold over salads. Universal vehicle.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-stovetop">Stovetop</span>
+                <span class="recipe-tag recipe-tag-day">BATCH GRAIN</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Batch Quinoa (Lemon-Herb)</div>
+              <div class="recipe-meta"><span>Prep: 3 min</span><span>Cook: 18 min</span><span>Serves: 5&ndash;6 lunches</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1.5 cups quinoa (RINSED until water runs clear &mdash; this removes the bitter saponin coating)</li>
+                <li>3 cups chicken or vegetable broth (water works but broth elevates it)</li>
+                <li>2 tbsp olive oil, 1 tsp salt</li>
+                <li>For finish: zest + juice of 1 lemon, 2 tbsp olive oil, fresh parsley + mint, salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Toast rinsed quinoa in olive oil 3 min over medium &mdash; nutty smell tells you it's ready.</li>
+                <li>Add broth + salt, bring to boil. Cover, lowest heat 15 min. Off heat 5 min undisturbed.</li>
+                <li>Fluff with fork. Toss with lemon zest + juice + olive oil + herbs while warm.</li>
+                <li>Stores 5 days. Lower-glycemic alternative to rice for bowls. Add nuts for crunch in salads.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-airfryer">Air Fryer</span>
+                <span class="recipe-tag recipe-tag-day">SNACK / TOPPER</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Crispy Spiced Chickpeas</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 14 min</span><span>Serves: 4 (snack)</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cans chickpeas (drained, RINSED, then DRIED THOROUGHLY in a clean towel &mdash; this is critical)</li>
+                <li>2 tbsp olive oil, 1 tsp salt</li>
+                <li>Mediterranean spice mix: 1 tsp smoked paprika + 1 tsp cumin + 1/2 tsp garlic powder + pinch cayenne</li>
+                <li>OR Indian spice mix: 1 tsp garam masala + 1/2 tsp turmeric + 1/2 tsp Kashmiri chili + pinch amchur</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Dry chickpeas thoroughly &mdash; wet chickpeas steam, dry ones crisp. Pat with multiple towels.</li>
+                <li>Toss with olive oil + salt. Air fryer 400&deg;F, 12&ndash;14 min, shake every 4 min.</li>
+                <li>Toss in spices ONLY at the end (spices burn at 400). Cool 5 min &mdash; they crisp further as they cool.</li>
+                <li>Stores 5 days in an OPEN container (sealed = soft). Snack on a handful, top bowls, sprinkle on hummus or soup.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Replaces chip cravings, adds 10g protein per snack-sized handful, and lives in your pantry as cans.</p>
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
@@ -3164,6 +3401,40 @@
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-airfryer">Air Fryer</span>
+                <span class="recipe-tag recipe-tag-day">BATCH PROTEIN</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Tandoori Shrimp</div>
+              <div class="recipe-meta"><span>Prep: 10 min + marinate</span><span>Cook: 8 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 lb large shrimp (peeled, deveined, tail-on optional)</li>
+                <li>1/3 cup plain yogurt, juice of 1 lemon, 2 tbsp olive oil</li>
+                <li>1 tbsp ginger + 4 cloves garlic (minced or grated)</li>
+                <li>2 tsp Kashmiri chili (the deep red color), 1 tsp garam masala, 1 tsp cumin, 1/2 tsp turmeric, 1/2 tsp salt</li>
+                <li>Pinch black salt (kala namak) if you have it &mdash; tandoori signature</li>
+                <li>Cilantro + extra lemon wedges to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Whisk yogurt + lemon + olive oil + ginger + garlic + all spices. Add shrimp, marinate 30 min (NOT longer &mdash; acid will start "cooking" them).</li>
+                <li>Air fryer 400&deg;F, 6&ndash;8 min, shake basket halfway. Edges should char and curl.</li>
+                <li>Squeeze lemon, toss in cilantro. Serve over basmati with mint chutney + raita, or over arugula salad.</li>
+                <li>Stores 2 days. Re-warm gently or eat cold over greens (still excellent).</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Indian-style sister to the Med garlic shrimp. Stocks the lunch protein rotation with a spice-heavy option.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
     </div>
       </div><!-- /method-group-body mg-batch -->
     </div><!-- /method-group mg-batch -->
@@ -3235,6 +3506,73 @@
                 <li>Add tomatoes + spices, cook 2&ndash;3 min. Add chickpeas + water.</li>
                 <li>Pressure cook 5 min (canned) or 35 min (dried). Mash a few for thicker gravy.</li>
                 <li>Finish with garam masala + lemon juice + cilantro. Serve with rice or naan.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-pressure">Pressure Cooker</span>
+                <span class="recipe-tag recipe-tag-day">PUNJABI CLASSIC</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Punjabi Chole (Spiced Chickpeas)</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 35 min</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 cup dried chickpeas (soaked overnight) OR 2 cans chickpeas drained</li>
+                <li>2 tea bags (black) &mdash; in with chickpeas during cooking, gives the dark color</li>
+                <li>2 onions (one diced, one sliced thin for garnish)</li>
+                <li>1 can crushed tomatoes, 1 tbsp ginger + 5 cloves garlic</li>
+                <li>2 tbsp ghee, 1 tsp cumin seeds, 2 dried red chilies</li>
+                <li>2 tsp chana masala spice mix (or 1 tsp garam masala + 1 tsp coriander + 1 tsp cumin + 1 tsp amchur)</li>
+                <li>Lemon, cilantro, slivers of green chili to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Pressure cook chickpeas with tea bags + salt + 4 cups water: 35 min dried, 5 min canned. Discard tea bags.</li>
+                <li>Saut&eacute;: ghee + cumin seeds + dried chilies 30 sec. Onion 6 min until deep brown. Ginger + garlic 1 min.</li>
+                <li>Tomatoes + chana masala spice, cook 5 min until oil separates. Add chickpeas + 1 cup of their cooking liquid.</li>
+                <li>Simmer 10 min. Mash 1/4 of chickpeas to thicken. Lemon + cilantro + raw onion + green chili. Serve with naan or basmati.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-pressure">Pressure Cooker</span>
+                <span class="recipe-tag recipe-tag-day">FEAST</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Vegetable Biryani</div>
+              <div class="recipe-meta"><span>Prep: 15 min</span><span>Cook: 25 min</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1.5 cups basmati rice (rinsed, soaked 20 min, drained)</li>
+                <li>1 onion (sliced thin), 2 cups mixed veg: cauliflower, carrots, peas, green beans</li>
+                <li>1 cup plain yogurt, 1 tbsp ginger + 4 garlic cloves, 2 small green chilies</li>
+                <li>3 tbsp ghee, 1 stick cinnamon, 4 cloves, 4 cardamom pods, 1 bay leaf, 1 tsp cumin seeds</li>
+                <li>2 tsp biryani masala (or garam masala), 1/2 tsp turmeric, 1/2 tsp Kashmiri chili, salt</li>
+                <li>Pinch saffron in 2 tbsp warm milk, mint + cilantro, fried onions for top</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Pressure cooker: ghee + whole spices + cumin seeds 30 sec. Add onion, fry 6 min until golden.</li>
+                <li>Ginger + garlic + green chili 1 min. Veg + ground spices, toss 2 min. Add yogurt, cook until oil separates.</li>
+                <li>Add rice + 2.5 cups water + salt + half the mint/cilantro. Pressure cook 5 min, natural release 10 min.</li>
+                <li>Drizzle saffron milk on top, scatter fried onions + remaining herbs. Fluff gently with fork. Serve with raita.</li>
               </ol>
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
@@ -3318,6 +3656,101 @@
               <ol class="recipe-method">
                 <li>Whisk all ingredients until smooth. Drizzle over arugula salad. Stores 5 days.</li>
               </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-nocook">No Cook</span>
+                <span class="recipe-tag recipe-tag-day">FRESH</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Tzatziki (Greek Yogurt Sauce)</div>
+              <div class="recipe-meta"><span>10 min</span><span>Stores: 5 days</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cups thick Greek yogurt (Fage 5%)</li>
+                <li>1 English cucumber (grated, then SQUEEZED dry in a kitchen towel &mdash; this is the critical step)</li>
+                <li>3 cloves garlic (microplaned or finely minced)</li>
+                <li>1 tbsp olive oil, juice of 1 lemon, 2 tbsp fresh dill (or mint), salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Grate cucumber, salt lightly, let sit 10 min in a sieve. Squeeze HARD in a clean towel until you can&rsquo;t get more water out.</li>
+                <li>Combine all ingredients. Rest 30 min minimum &mdash; flavor blooms.</li>
+                <li>Goes on: Greek lemon chicken, lamb kofta, shawarma, falafel bowls, roasted veg, eggs, pita.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Cucumber as dressing carrier (not "featured raw vegetable") &mdash; sidesteps the "no cucumber as star" rule.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-nocook">No Cook</span>
+                <span class="recipe-tag recipe-tag-day">PANTRY</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">From-Scratch Hummus</div>
+              <div class="recipe-meta"><span>10 min</span><span>Stores: 7 days</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 can chickpeas (drained, RESERVE liquid &mdash; aquafaba)</li>
+                <li>1/3 cup tahini (well-stirred &mdash; oil should be incorporated)</li>
+                <li>3 tbsp lemon juice, 2 cloves garlic, 1/2 tsp ground cumin, 1/4 tsp salt</li>
+                <li>3&ndash;5 tbsp ice water (this is the texture secret)</li>
+                <li>For top: olive oil, paprika, parsley, pine nuts, whole chickpeas</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Process tahini + lemon + garlic + salt in food processor 1 min &mdash; should turn pale and creamy.</li>
+                <li>Add chickpeas + cumin, process 2 min. Drizzle in ice water 1 tbsp at a time until silky.</li>
+                <li>For ULTRA-smooth: pinch the chickpea skins off first (5 min, worth it once).</li>
+                <li>Plate with swoosh, drizzle olive oil, dust paprika, scatter parsley + reserved chickpeas. 10x better than store-bought.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-nocook">No Cook</span>
+                <span class="recipe-tag recipe-tag-day">SALAD</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Mediterranean Chickpea Salad</div>
+              <div class="recipe-meta"><span>10 min</span><span>Stores: 4 days</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cans chickpeas (drained, rinsed, dried)</li>
+                <li>1 pint cherry tomatoes (halved), 1/2 red onion (diced fine, soaked 5 min in water then drained &mdash; kills harsh bite)</li>
+                <li>1/2 cup kalamata olives (pitted, halved), 1 cup feta (cubed)</li>
+                <li>1/4 cup olive oil, 2 tbsp red wine vinegar, 1 tbsp lemon juice, 1 tsp dried oregano, salt + pepper</li>
+                <li>Fresh parsley + mint (optional)</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Whisk dressing: olive oil + vinegar + lemon + oregano + salt + pepper.</li>
+                <li>Toss chickpeas + tomatoes + onion + olives + feta with dressing. Rest 15 min.</li>
+                <li>Fold in parsley + mint at the end. Eat as side, in pita pockets, or over arugula. Better day 2.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">No-cook lunch hero. Onion-soak trick lets you eat raw onion without dominance.</p>
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
@@ -3496,6 +3929,76 @@
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-crockpot">Crock Pot</span>
+                <span class="recipe-tag recipe-tag-day">CREAMY MILD</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Slow Cooker Chicken Korma</div>
+              <div class="recipe-meta"><span>Prep: 15 min</span><span>Cook: 6&ndash;8 hrs low</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Cashew Cream Base</div>
+              <ul class="recipe-ingredients">
+                <li>1 cup raw cashews (soaked in hot water 15 min, drained)</li>
+                <li>1 cup water &mdash; blend cashews + water until perfectly smooth (replaces heavy cream)</li>
+              </ul>
+              <div class="recipe-section-title">Curry</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs, 2 onions (diced), 1 tbsp ginger + 5 garlic cloves</li>
+                <li>1 can (14 oz) diced tomatoes, 2 tbsp ghee or butter</li>
+                <li>2 tsp garam masala, 1 tsp coriander, 1 tsp cumin, 1 tsp Kashmiri chili, 1/2 tsp turmeric, 1/2 tsp cardamom, salt</li>
+                <li>Cilantro + slivered almonds + golden raisins (optional) to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Optional but worth it: brown onion in ghee 8 min, ginger + garlic 1 min, spices 30 sec. Pour into crock pot.</li>
+                <li>Add chicken + tomatoes + cashew cream. LOW 6&ndash;8 hrs.</li>
+                <li>Shred chicken in pot. The sauce should be silky.</li>
+                <li>Top: cilantro + almonds + raisins. Serve over basmati. Mild, creamy, dinner-party-worthy &mdash; the gateway curry for spice-cautious guests.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-crockpot">Crock Pot</span>
+                <span class="recipe-tag recipe-tag-day">SHOWSTOPPER</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Slow Cooker Lamb Rogan Josh</div>
+              <div class="recipe-meta"><span>Prep: 15 min</span><span>Cook: 7&ndash;8 hrs low</span><span>Serves: 5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs lamb shoulder (cubed 1.5&rdquo;) &mdash; chuck beef works as substitute</li>
+                <li>2 onions (sliced thin), 2 tbsp ghee or oil</li>
+                <li>1 cup plain yogurt (whisked smooth), 1 can (14 oz) crushed tomatoes</li>
+                <li>2 tbsp Kashmiri chili powder (gives the deep red color &mdash; mild, not hot)</li>
+                <li>1 tbsp ginger + 6 cloves garlic, 1 tbsp ground fennel, 1 tsp ground ginger, 1 tsp garam masala, 1/2 tsp asafoetida (optional but classic)</li>
+                <li>4 green cardamom + 2 black cardamom + 1 cinnamon stick + 4 cloves + 1 bay leaf</li>
+                <li>Salt, cilantro to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Brown lamb in batches in ghee, set aside. Same pan: whole spices 30 sec. Onion 8 min until deep brown.</li>
+                <li>Ginger + garlic 1 min. Ground spices + Kashmiri chili 30 sec. Add yogurt 1 tbsp at a time, stirring (prevents curdling).</li>
+                <li>Add tomatoes, cook 5 min. Pour everything (with lamb) into crock pot. LOW 7&ndash;8 hrs &mdash; lamb falls apart.</li>
+                <li>Cilantro. Serve with basmati or naan. Day 2 tastes better. Freezes 3 months. Showstopper for guests.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
     </div>
       </div><!-- /method-group-body mg-crockpot -->
     </div><!-- /method-group mg-crockpot -->
@@ -3632,6 +4135,103 @@
                 <li>Add lentils + tomatoes + broth. Simmer 25&ndash;30 min until lentils completely soft.</li>
                 <li>Optional: hit with immersion blender 5 sec for half-creamy texture (don&rsquo;t fully blend).</li>
                 <li>Finish with lemon + parsley. Drizzle olive oil + dukkah at the bowl. Stores 5 days. Freezes 3 months. Top-rated Reddit batch cook for a reason &mdash; it&rsquo;s essentially a free meal.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-stovetop">Stovetop</span>
+                <span class="recipe-tag recipe-tag-day">WEEKNIGHT</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Mushroom Masala</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 20 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>16 oz cremini or baby bella mushrooms (quartered &mdash; thick chunks)</li>
+                <li>1 onion (diced fine), 4 cloves garlic + 1 tbsp ginger</li>
+                <li>1 can (14 oz) diced tomatoes, 1/4 cup coconut milk or cream</li>
+                <li>2 tbsp ghee or butter, 1 tsp cumin seeds</li>
+                <li>2 tsp garam masala, 1 tsp coriander, 1 tsp Kashmiri chili, 1/2 tsp turmeric, salt</li>
+                <li>Kasuri methi + cilantro to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Bloom cumin seeds in ghee 30 sec. Add onion, brown 6 min until edges golden.</li>
+                <li>Ginger + garlic 1 min, then spices 30 sec. Add tomatoes, mash + cook 4 min.</li>
+                <li>Add mushrooms, toss to coat. Cover 8&ndash;10 min &mdash; mushrooms release liquid then it reduces.</li>
+                <li>Stir in coconut milk, simmer 2 min. Crush kasuri methi between palms. Cilantro on top. Serve over basmati or with naan.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Mushrooms are a confirmed love. Meaty vegetarian main &mdash; deeply savory, no meat needed.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-med">Mediterranean</span>
+                <span class="recipe-tag recipe-tag-stovetop">Stovetop</span>
+                <span class="recipe-tag recipe-tag-day">ONE POT</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">One-Pot Lemon Orzo with Shrimp</div>
+              <div class="recipe-meta"><span>Prep: 8 min</span><span>Cook: 18 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 lb large shrimp (peeled, deveined)</li>
+                <li>1.5 cups orzo pasta, 4 cups chicken broth</li>
+                <li>1 onion (diced), 4 cloves garlic, 3 tbsp olive oil + 2 tbsp butter</li>
+                <li>1 pint cherry tomatoes (halved), juice + zest of 2 lemons</li>
+                <li>1/2 tsp red pepper flakes, salt + pepper, fresh dill or parsley, crumbled feta</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Saut&eacute; onion in olive oil 4 min. Add garlic + red pepper flakes 30 sec. Add cherry tomatoes, smash slightly, cook 3 min.</li>
+                <li>Add orzo, toast 1 min. Pour in broth + lemon zest, simmer 10 min stirring occasionally until orzo is al dente and most liquid absorbed.</li>
+                <li>Stir in shrimp + butter, cover, off heat 4&ndash;5 min &mdash; residual heat cooks shrimp perfectly.</li>
+                <li>Lemon juice + dill + feta. Serve straight from pot. Top-rated Reddit Mediterranean weeknight &mdash; one pot, ~25 min, dinner-party-good.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags">
+                <span class="recipe-tag recipe-tag-indian">Indian</span>
+                <span class="recipe-tag recipe-tag-stovetop">Stovetop</span>
+                <span class="recipe-tag recipe-tag-day">15 MIN MEAL</span>
+                <span class="recipe-tag recipe-tag-new">NEW</span>
+              </div>
+              <div class="recipe-name">Anda Curry (Indian Egg Curry)</div>
+              <div class="recipe-meta"><span>Prep: 8 min</span><span>Cook: 18 min</span><span>Serves: 3</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>6 hard-boiled eggs (peeled), 1 onion (diced fine), 1 can diced tomatoes</li>
+                <li>1 tbsp ginger + 4 cloves garlic, 2 tbsp ghee or oil</li>
+                <li>1 tsp cumin seeds, 2 tsp garam masala, 1 tsp coriander, 1/2 tsp turmeric, 1/2 tsp Kashmiri chili, salt</li>
+                <li>1/4 cup coconut milk or cream, cilantro to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Score peeled eggs lightly with knife (3 shallow slits). Pan-fry in 1 tbsp ghee until golden, 2 min total. Remove.</li>
+                <li>Same pan: cumin seeds 30 sec. Onion 5 min. Ginger + garlic 1 min. Spices 30 sec.</li>
+                <li>Tomatoes + 1/2 cup water, simmer 8 min. Add eggs back, coconut milk, simmer 3 min.</li>
+                <li>Cilantro. Serve with basmati or paratha. Surprising weeknight protein win.</li>
               </ol>
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
@@ -4676,14 +5276,6 @@
       </div>
     </div>
 
-    <!-- Phase 3 Foundation Callout -->
-    <div style="margin:28px 0 24px;padding:18px 22px;border-radius:14px;background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.18);">
-      <div style="display:flex;align-items:center;gap:10px;font-weight:800;color:var(--phase3);font-size:14px;letter-spacing:0.04em;text-transform:uppercase;">
-        <span style="font-size:20px;">&#128209;</span> Phase 3 Recipes Carry Forward
-      </div>
-      <p style="margin:8px 0 0;font-size:13px;color:var(--text-muted);line-height:1.55;">All Phase 3 dinner recipes (Butter Chicken, Dal Makhani, Rajma, Crock Pot Tikka, Daal Tadka, Chana Masala, Shakshuka, Cod, Coconut Fish Curry, Lentil Soup, Tahini Sauce, Pickled Onions, etc.) remain available. <strong>Don&rsquo;t duplicate them here.</strong> Scroll up to <a href="#phase3" style="color:var(--phase3);font-weight:700;">Phase 3 &rarr; Dinner</a> for the full collection. Below: <strong>only the new Phase 4 expansion recipes</strong> &mdash; one new per week is the right pace.</p>
-    </div>
-
     <!-- Mediterranean Expansion Banner -->
     <div class="cuisine-banner cuisine-banner-med">
       <span class="cuisine-banner-icon">&#129362;</span>
@@ -4801,6 +5393,134 @@
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-airfryer">Air Fryer</span><span class="recipe-tag recipe-tag-day">SUNDAY BATCH</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Greek Lemon Chicken (Lemonato)</div>
+              <div class="recipe-meta"><span>Prep: 10 min + marinate</span><span>Cook: 18 min</span><span>Serves: 4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs (bone-in, skin-on)</li>
+                <li>1/3 cup olive oil, juice + zest of 2 lemons</li>
+                <li>6 cloves garlic (smashed), 2 tsp dried oregano, 1 tsp dried thyme</li>
+                <li>1 tsp Dijon mustard, salt + pepper</li>
+                <li>1 lb baby potatoes (halved) &mdash; for the air fryer alongside</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Whisk olive oil + lemon + garlic + herbs + Dijon. Coat chicken + potatoes. Marinate 30 min+.</li>
+                <li>Air fryer 380&deg;F: potatoes 8 min first, then add chicken on top, 18 min more, flip chicken halfway.</li>
+                <li>Rest 5 min. Pour reserved marinade in pan, simmer 2 min into a sauce, drizzle over.</li>
+                <li>Serves over arugula with feta + olives. Stores 4 days. Mediterranean classic, dead simple.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-airfryer">Air Fryer</span><span class="recipe-tag recipe-tag-day">SHEET PAN</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Sheet Pan Greek Chicken &amp; Veg</div>
+              <div class="recipe-meta"><span>Prep: 12 min</span><span>Cook: 22 min</span><span>Serves: 4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1.5 lbs chicken thighs (cubed 1.5&rdquo;), 1 zucchini (chunked), 1 bell pepper, 1 red onion (wedges)</li>
+                <li>1 pint cherry tomatoes, 1 can artichoke hearts (drained, halved)</li>
+                <li>1/4 cup olive oil, juice of 1 lemon, 4 cloves garlic, 2 tsp oregano, 1 tsp paprika, salt</li>
+                <li>1/2 cup feta (crumbled at the end), 1/4 cup kalamata olives, fresh parsley</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Toss everything (except feta + olives + parsley) with olive oil, lemon, garlic, herbs, salt.</li>
+                <li>Air fryer or oven 400&deg;F: 20&ndash;22 min, shake basket halfway. Edges should char on chicken + onion.</li>
+                <li>Top with feta + olives + parsley off heat. Serve with pita, tahini drizzle, more lemon.</li>
+                <li>One-pan dinner with 5+ vegetables &mdash; ingredient overlap king. Stores 4 days.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-airfryer">Air Fryer</span><span class="recipe-tag recipe-tag-day">SUNDAY BATCH</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Za&rsquo;atar Chicken Thighs</div>
+              <div class="recipe-meta"><span>Prep: 10 min + marinate</span><span>Cook: 18 min</span><span>Serves: 4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs (bone-in, skin-on)</li>
+                <li>1/2 cup plain Greek yogurt (Fage 5%)</li>
+                <li>2 tbsp za&rsquo;atar, 1 tbsp olive oil</li>
+                <li>Juice + zest of 1 lemon</li>
+                <li>1 tsp sumac, 1/2 tsp cinnamon, 1/2 tsp garlic powder, 1 tsp cumin, salt + pepper</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Mix yogurt, za&rsquo;atar, olive oil, lemon, spices, salt. Coat chicken. Marinate 30 min to overnight.</li>
+                <li>Air fryer 380&deg;F, 16&ndash;20 min, flip halfway.</li>
+                <li>Rest 5 min. Stores 4 days. Reheat air fryer 375&deg;F 4 min for crispy char.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-airfryer">Air Fryer</span><span class="recipe-tag recipe-tag-day">SUNDAY BATCH</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Masala-Marinated Chicken Thighs</div>
+              <div class="recipe-meta"><span>Prep: 10 min + marinate</span><span>Cook: 15 min</span><span>Serves: 4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs (boneless skinless), 1/2 cup plain yogurt</li>
+                <li>2 tsp garam masala, 1 tsp turmeric, 1 tsp cumin, 1 tsp Kashmiri chili</li>
+                <li>1 tbsp ginger + 3 cloves garlic (minced), salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Combine yogurt with all spices, ginger, garlic, salt. Coat chicken. Marinate 30 min+.</li>
+                <li>Air fryer 380&deg;F, 10&ndash;15 min, flip once.</li>
+                <li>Use as-is for bowls, or simmer in tikka masala sauce. Stores 4 days. Air fryer reheat brings the char back.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">BATCH PROTEIN</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Batch Garlic Shrimp</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 6 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 lb large shrimp (peeled, deveined &mdash; frozen is fine, thaw in cold water 10 min)</li>
+                <li>4 cloves garlic (minced), 3 tbsp olive oil or butter</li>
+                <li>Juice of 1 lemon, 1/4 tsp red pepper flakes, salt</li>
+                <li>Med version: za&rsquo;atar + sumac. Indian version: 1/2 tsp garam masala + 1/4 tsp turmeric.</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Heat olive oil over high heat. Add garlic 30 sec.</li>
+                <li>Add shrimp single layer, 2 min per side until pink and just curled.</li>
+                <li>Off heat: lemon + red pepper flakes. Stores 3 days. Don&rsquo;t reheat past warm.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
     </div>
       </div><!-- /method-group-body mg-batch -->
     </div><!-- /method-group mg-batch -->
@@ -4834,6 +5554,167 @@
                 <li>Rest 5 min, fluff. Top with extra onions, yogurt, hot sauce.</li>
               </ol>
               <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Scotty loves caramelized onions &mdash; this dish is essentially "what if rice and lentils were the carrier for a pound of caramelized onions." High overlap with stocked pantry.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">WEEKNIGHT</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Mushroom Masala</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 20 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>16 oz cremini or baby bella mushrooms (quartered &mdash; thick chunks)</li>
+                <li>1 onion (diced fine), 4 cloves garlic + 1 tbsp ginger</li>
+                <li>1 can (14 oz) diced tomatoes, 1/4 cup coconut milk or cream</li>
+                <li>2 tbsp ghee or butter, 1 tsp cumin seeds</li>
+                <li>2 tsp garam masala, 1 tsp coriander, 1 tsp Kashmiri chili, 1/2 tsp turmeric, salt</li>
+                <li>Kasuri methi + cilantro to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Bloom cumin seeds in ghee 30 sec. Add onion, brown 6 min until edges golden.</li>
+                <li>Add ginger + garlic 1 min, then spices, 30 sec.</li>
+                <li>Add tomatoes, mash and cook 4 min. Add mushrooms, toss to coat. Cover, cook 8&ndash;10 min &mdash; mushrooms release liquid then it reduces.</li>
+                <li>Stir in coconut milk, simmer 2 min. Crush in kasuri methi. Cilantro on top. Serve over basmati or with naan.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Mushrooms are a confirmed Scotty love. This is a meaty vegetarian main &mdash; deeply savory, no meat needed.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">BATCH SOUP</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Roasted Red Pepper &amp; Tomato Soup</div>
+              <div class="recipe-meta"><span>Prep: 8 min</span><span>Cook: 25 min</span><span>Serves: 5&ndash;6</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 jar (16 oz) roasted red peppers (drained), 1 can (28 oz) crushed tomatoes</li>
+                <li>1 onion (diced), 4 cloves garlic, 3 tbsp olive oil</li>
+                <li>1 tsp smoked paprika, 1 tsp cumin, pinch red pepper flakes, salt</li>
+                <li>3 cups chicken or vegetable broth, 1/4 cup heavy cream or coconut milk (optional)</li>
+                <li>Fresh basil + drizzle good olive oil + crumbled feta (toppings)</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Saut&eacute; onion in olive oil 6 min. Add garlic + spices 1 min.</li>
+                <li>Add peppers + tomatoes + broth, simmer 15 min.</li>
+                <li>Immersion blender until smooth. Stir in cream if using.</li>
+                <li>Top each bowl with basil + olive oil + feta. Pairs perfectly with grilled cheese on sourdough. Stores 5 days, freezes 3 months.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">WEEKNIGHT</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Shakshuka</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 20 min</span><span>Serves: 3&ndash;4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 tbsp olive oil, 1 onion (diced), 4 cloves garlic</li>
+                <li>2 tsp cumin, 2 tsp smoked paprika, 1/4 tsp cayenne</li>
+                <li>1 can (28 oz) crushed tomatoes, 4&ndash;6 eggs</li>
+                <li>Optional: harissa paste (1 tbsp), feta, cilantro</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Saut&eacute; onion 5 min. Add garlic + spices 1 min.</li>
+                <li>Pour in tomatoes + harissa. Simmer 10 min.</li>
+                <li>Make wells, crack eggs in. Cover 5&ndash;7 min until whites just set.</li>
+                <li>Finish feta + cilantro. Serve straight from pan with warm pita.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">WEEKNIGHT</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Pan-Seared Cod, Lemon-Caper-Olive Oil</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 10 min</span><span>Serves: 2&ndash;3</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1&ndash;1.5 lbs cod or halibut (patted bone-dry)</li>
+                <li>3 tbsp olive oil + 2 tbsp butter, 4 cloves garlic (sliced thin)</li>
+                <li>2 tbsp capers, juice + zest of 1 lemon, 1/4 cup white wine or broth</li>
+                <li>Fresh parsley, salt + pepper, pinch red pepper flakes</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Salt fish, rest 5 min, pat dry. Heat olive oil medium-high until shimmering.</li>
+                <li>Place fish skin-down. DON&rsquo;T MOVE for 4 min. Flip 2&ndash;3 min, remove.</li>
+                <li>Same pan: butter + garlic 30 sec. Capers + wine, reduce 1 min. Off heat: lemon + parsley + red pepper.</li>
+                <li>Spoon over fish. Serve with arugula + basmati or pita.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">WEEKNIGHT</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Coconut Fish Curry (Cod)</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 18 min</span><span>Serves: 3</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1&ndash;1.5 lbs cod or halibut (cubed 1.5&rdquo;), 1 can (14 oz) coconut milk</li>
+                <li>1 tbsp ghee, 1 tsp mustard seeds, 8&ndash;10 curry leaves</li>
+                <li>1 onion, 3 cloves garlic + 1 tbsp ginger, 1 small tomato</li>
+                <li>1 tsp turmeric, 1 tsp coriander, 1 tsp Kashmiri chili, 1/2 tsp garam masala, salt</li>
+                <li>Tamarind paste 1 tsp, cilantro, lime to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Heat ghee. Pop mustard seeds 30 sec. Add curry leaves.</li>
+                <li>Onion 4&ndash;5 min, garlic + ginger 1 min, spices + tomato 2 min.</li>
+                <li>Coconut milk + tamarind, simmer 5 min. Slide cod in, cover, GENTLY 5&ndash;7 min.</li>
+                <li>Lime + cilantro. Serve over basmati. Stores 2 days.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">BATCH SOUP</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Mediterranean Lentil Soup</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 30 min</span><span>Serves: 6</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1.5 cups red masoor lentils, 1 large onion, 2 carrots, 4 cloves garlic</li>
+                <li>3 tbsp olive oil, 1 can crushed tomatoes</li>
+                <li>2 tsp cumin, 2 tsp smoked paprika, 1 tsp coriander, 1/2 tsp cinnamon, salt</li>
+                <li>6 cups broth, juice of 1 lemon, fresh parsley</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Saut&eacute; onion + carrot 6 min. Add garlic + spices 1 min.</li>
+                <li>Add lentils + tomatoes + broth, simmer 25&ndash;30 min.</li>
+                <li>Optional: immersion blender 5 sec for half-creamy texture.</li>
+                <li>Lemon + parsley + olive oil. Stores 5 days. Freezes 3 months.</li>
+              </ol>
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
@@ -4906,9 +5787,501 @@
               <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
             </div>
           </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-pressure">Pressure Cooker</span><span class="recipe-tag recipe-tag-day">EXPANSION</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Punjabi Chole (Spiced Chickpeas)</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 35 min</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 cup dried chickpeas (soaked overnight) OR 2 cans chickpeas drained</li>
+                <li>2 tea bags (black) &mdash; in with chickpeas during cooking, gives the dark color</li>
+                <li>2 onions (one diced, one for garnish thinly sliced)</li>
+                <li>1 can crushed tomatoes, 1 tbsp ginger + 5 cloves garlic</li>
+                <li>2 tbsp ghee, 1 tsp cumin seeds, 2 dried red chilies</li>
+                <li>2 tsp chana masala spice mix (or 1 tsp garam masala + 1 tsp coriander + 1 tsp cumin + 1 tsp amchur)</li>
+                <li>Lemon, cilantro, slivers of green chili to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Pressure cook chickpeas with tea bags + salt + 4 cups water: 35 min dried, 5 min canned. Discard tea bags.</li>
+                <li>Saut&eacute;: ghee + cumin seeds + dried chilies 30 sec. Add onion 6 min until deep brown. Ginger + garlic 1 min.</li>
+                <li>Add tomatoes + chana masala spice, cook 5 min until oil separates. Add chickpeas + 1 cup of their cooking liquid.</li>
+                <li>Simmer 10 min. Mash 1/4 of chickpeas to thicken. Finish lemon + cilantro + raw onion + green chili. Serve with bhature, naan, or basmati.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-pressure">Pressure Cooker</span><span class="recipe-tag recipe-tag-day">EXPANSION</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Vegetable Biryani</div>
+              <div class="recipe-meta"><span>Prep: 15 min</span><span>Cook: 25 min</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1.5 cups basmati rice (rinsed, soaked 20 min, drained)</li>
+                <li>1 onion (sliced thin), 2 cups mixed veg: cauliflower, carrots, peas, green beans (frozen mix is fine)</li>
+                <li>1 cup plain yogurt, 1 tbsp ginger + 4 garlic cloves, 2 small green chilies</li>
+                <li>3 tbsp ghee, 1 stick cinnamon, 4 cloves, 4 cardamom pods, 1 bay leaf, 1 tsp cumin seeds</li>
+                <li>2 tsp biryani masala (or garam masala), 1/2 tsp turmeric, 1/2 tsp Kashmiri chili, salt</li>
+                <li>Pinch saffron in 2 tbsp warm milk, mint + cilantro, fried onions for top</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Pressure cooker: ghee + whole spices + cumin seeds 30 sec. Add onion, fry 6 min until golden.</li>
+                <li>Add ginger + garlic + green chili 1 min. Add veg + ground spices, toss 2 min. Add yogurt, cook until oil separates.</li>
+                <li>Add rice + 2.5 cups water + salt + half the mint/cilantro. Pressure cook 5 min, natural release 10 min.</li>
+                <li>Drizzle saffron milk on top, scatter fried onions + remaining herbs. Fluff gently with fork. Serve with raita.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-stovetop">Stovetop</span><span class="recipe-tag recipe-tag-day">15 MIN MEAL</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Anda Curry (Indian Egg Curry)</div>
+              <div class="recipe-meta"><span>Prep: 8 min</span><span>Cook: 18 min</span><span>Serves: 3</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>6 hard-boiled eggs (peeled), 1 onion (diced fine), 1 can diced tomatoes</li>
+                <li>1 tbsp ginger + 4 cloves garlic, 2 tbsp ghee or oil</li>
+                <li>1 tsp cumin seeds, 2 tsp garam masala, 1 tsp coriander, 1/2 tsp turmeric, 1/2 tsp Kashmiri chili, salt</li>
+                <li>1/4 cup coconut milk or cream, cilantro to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Score peeled eggs lightly with knife (3 shallow slits). Pan-fry in 1 tbsp ghee until golden patches form, 2 min total. Remove.</li>
+                <li>Same pan: cumin seeds 30 sec. Onion 5 min. Ginger + garlic 1 min. Spices 30 sec.</li>
+                <li>Tomatoes + 1/2 cup water, simmer 8 min. Add eggs back, coconut milk, simmer 3 min.</li>
+                <li>Cilantro on top. Serve with basmati or paratha. Surprisingly satisfying weeknight protein.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-pressure">Pressure Cooker</span><span class="recipe-tag recipe-tag-day">SUNDAY BATCH</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Pressure Cooker Daal Tadka</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 8 min + tarka</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 cup red masoor lentils (rinsed)</li>
+                <li>3 cups water, 1 can diced tomatoes</li>
+                <li>1 tbsp ginger + 3 cloves garlic, 1 tsp turmeric, 1 tsp cumin, 1/2 tsp coriander, 1/2 tsp chili powder, salt</li>
+              </ul>
+              <div class="recipe-section-title">Tarka</div>
+              <ul class="recipe-ingredients">
+                <li>2 tbsp ghee, 1 tsp cumin seeds, 2 dried red chilies, 3 garlic cloves (sliced)</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Pressure cook lentils + water + tomato + spices 5&ndash;8 min high pressure.</li>
+                <li>Tarka: heat ghee, cumin seeds + dried chili + garlic 1&ndash;2 min. Pour over daal.</li>
+                <li>Lemon + cilantro. Stores 4&ndash;5 days. Freezes well.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-pressure">Pressure Cooker</span><span class="recipe-tag recipe-tag-day">SUNDAY ALT</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Pressure Cooker Chana Masala</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 5&ndash;35 min</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cans chickpeas or 1 cup dried (soaked overnight)</li>
+                <li>1 large onion, 1 can crushed tomatoes, 1 tbsp ginger + 4 cloves garlic</li>
+                <li>1 tsp cumin seeds, 2 tsp garam masala, 1 tsp coriander, 1 tsp turmeric, 1 tsp chili powder</li>
+                <li>Salt, lemon juice, cilantro</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Saut&eacute;: oil + cumin seeds 30 sec. Onion 3&ndash;5 min. Ginger, garlic 1 min.</li>
+                <li>Tomatoes + spices, 2&ndash;3 min. Add chickpeas + water.</li>
+                <li>Pressure cook 5 min canned or 35 min dried. Mash few for thicker gravy.</li>
+                <li>Garam masala + lemon + cilantro. Serve with rice or naan.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
     </div>
       </div><!-- /method-group-body mg-pressure -->
     </div><!-- /method-group mg-pressure -->
+
+    <!-- METHOD: CROCK POT (carried + new) -->
+    <div class="method-group mg-crockpot">
+      <div class="method-group-header">
+        <span class="mg-icon">&#127858;</span> Crock Pot &mdash; Set &amp; Forget Weekday
+        <span class="mg-meta">Phase 3 favorites + 2 new Phase 4 recipes</span>
+      </div>
+      <div class="method-group-body">
+    <p class="section-text" style="margin-top:0;">Five hours of crock pot work over the week + Sunday batch + DoorDash Saturday = 6 cooked nights. Headline new dishes: <strong>Chicken Korma</strong> (creamy cashew-based curry, mild) and <strong>Lamb Rogan Josh</strong> (Kashmiri showstopper).</p>
+    <div class="recipe-grid">
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">EXPANSION</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Slow Cooker Chicken Korma</div>
+              <div class="recipe-meta"><span>Prep: 15 min</span><span>Cook: 6&ndash;8 hrs low</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Cashew Cream Base</div>
+              <ul class="recipe-ingredients">
+                <li>1 cup raw cashews (soaked in hot water 15 min, drained)</li>
+                <li>1 cup water &mdash; blend cashews + water until perfectly smooth (this replaces heavy cream)</li>
+              </ul>
+              <div class="recipe-section-title">Curry</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs, 2 onions (diced), 1 tbsp ginger + 5 garlic cloves</li>
+                <li>1 can (14 oz) diced tomatoes, 2 tbsp ghee or butter</li>
+                <li>2 tsp garam masala, 1 tsp coriander, 1 tsp cumin, 1 tsp Kashmiri chili, 1/2 tsp turmeric, 1/2 tsp cardamom, salt</li>
+                <li>Cilantro + slivered almonds + raisins (optional) to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Optional but worth it: brown onion in ghee 8 min, ginger + garlic 1 min, spices 30 sec. Pour into crock pot.</li>
+                <li>Add chicken + tomatoes + cashew cream. LOW 6&ndash;8 hrs.</li>
+                <li>Shred chicken in pot. Adjust salt. The sauce should be silky.</li>
+                <li>Top: cilantro + almonds + raisins. Serve over basmati. Mild, creamy, dinner-party-worthy.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">EXPANSION</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Slow Cooker Lamb Rogan Josh</div>
+              <div class="recipe-meta"><span>Prep: 15 min</span><span>Cook: 7&ndash;8 hrs low</span><span>Serves: 5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs lamb shoulder (cubed 1.5&rdquo;) &mdash; chuck beef works as substitute</li>
+                <li>2 onions (sliced thin), 2 tbsp ghee or oil</li>
+                <li>1 cup plain yogurt (whisked smooth), 1 can (14 oz) crushed tomatoes</li>
+                <li>2 tbsp Kashmiri chili powder (this is what gives the deep red color &mdash; mild, not hot)</li>
+                <li>1 tbsp ginger + 6 cloves garlic, 1 tbsp ground fennel, 1 tsp ground ginger, 1 tsp garam masala, 1/2 tsp asafoetida (optional but classic)</li>
+                <li>4 green cardamom + 2 black cardamom + 1 cinnamon stick + 4 cloves + 1 bay leaf</li>
+                <li>Salt, cilantro to finish</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Brown lamb in batches in ghee, set aside. Same pan: whole spices 30 sec. Onion 8 min until deep brown.</li>
+                <li>Ginger + garlic 1 min. Ground spices + Kashmiri chili 30 sec. Add yogurt 1 tbsp at a time, stirring (prevents curdling).</li>
+                <li>Add tomatoes, cook 5 min. Pour everything (with lamb) into crock pot. LOW 7&ndash;8 hrs &mdash; lamb falls apart.</li>
+                <li>Cilantro. Serve with basmati or naan. Day 2 tastes better. Freezes 3 months.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">SIGNATURE</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Butter Chicken (Murgh Makhani)</div>
+              <div class="recipe-meta"><span>Prep: 15 min + marinate</span><span>Cook: 6&ndash;8 hrs low</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Marinade</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs (boneless skinless), 1/2 cup plain yogurt</li>
+                <li>1 tbsp ginger + 4 cloves garlic, 2 tsp garam masala, 1 tsp turmeric, 1 tsp Kashmiri chili, 1 tsp cumin, salt</li>
+              </ul>
+              <div class="recipe-section-title">Sauce</div>
+              <ul class="recipe-ingredients">
+                <li>1 can (14 oz) crushed tomatoes, 1/2 cup coconut milk or heavy cream (last 20 min)</li>
+                <li>2 tbsp butter or ghee, 1 tsp garam masala, 1 tsp kasuri methi, 1 tsp sugar, salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Marinate chicken 30 min to overnight. Add to crock pot with tomatoes + butter + spices.</li>
+                <li>LOW 6&ndash;8 hrs. Shred chicken with two forks in pot.</li>
+                <li>Stir in coconut milk last 20 min. Crush kasuri methi between palms.</li>
+                <li>Serve over basmati with naan. Stores 4 days, freezes 3 months. Scotty&rsquo;s #1 DoorDash &mdash; own it.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">WEEKDAY</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Crock Pot Tikka-Style Curry</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 6&ndash;8 hrs low</span><span>Serves: 4&ndash;5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs, 1 can crushed tomatoes, 1 can coconut milk (last 20 min)</li>
+                <li>1 large onion (diced, saut&eacute;ed 5 min first), 4 cloves garlic + 1 tbsp ginger</li>
+                <li>2 tbsp garam masala, 1 tsp turmeric, 1 tsp cumin, 1 tsp paprika, salt, fresh cilantro</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Saut&eacute; onion 5 min. Add to crock pot with chicken, tomatoes, garlic, ginger, spices.</li>
+                <li>LOW 6&ndash;8 hrs. Stir in coconut milk last 20 min.</li>
+                <li>Shred chicken. Serve over basmati with naan + achaar.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">WEEKDAY</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Crock Pot Med Chicken + Chickpeas</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 6&ndash;8 hrs low</span><span>Serves: 4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 lbs chicken thighs, 1 can chickpeas (drained), 1 can diced tomatoes</li>
+                <li>3 tbsp olive oil, 1 onion (rough chopped), 4 garlic cloves (smashed)</li>
+                <li>2 tsp cumin, 2 tsp smoked paprika, 1 tsp coriander, lemon juice, salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Add everything to crock pot. LOW 6&ndash;8 hrs.</li>
+                <li>Shred chicken. Serve over rice with arugula + tahini + pickled onions.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">WEEKDAY</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Dal Makhani</div>
+              <div class="recipe-meta"><span>Prep: 5 min</span><span>Cook: 8 hrs low</span><span>Serves: 5&ndash;6</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>3/4 cup whole black lentils (urad dal), 1/4 cup kidney beans</li>
+                <li>1 can crushed tomatoes, 1 onion, 1 tbsp ginger + 4 cloves garlic</li>
+                <li>2 tbsp butter or ghee, 1 tsp cumin seeds</li>
+                <li>2 tsp garam masala, 1 tsp Kashmiri chili, 1 tsp coriander, salt</li>
+                <li>1/4 cup coconut milk or cream (last 20 min), kasuri methi, cilantro</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Rinse lentils. Add to crock pot with all ingredients except cream. Cover with 2.5 cups water.</li>
+                <li>LOW 8 hrs. Lentils completely soft, broken down.</li>
+                <li>Stir in coconut milk last 20 min. Crush kasuri methi.</li>
+                <li>Adjust salt. Serve over basmati with naan. Tastes better day 2. Freezes excellently.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-indian">Indian</span><span class="recipe-tag recipe-tag-crockpot">Crock Pot</span><span class="recipe-tag recipe-tag-day">WEEKDAY</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Rajma (Kidney Bean Curry)</div>
+              <div class="recipe-meta"><span>Prep: 10 min</span><span>Cook: 6&ndash;8 hrs low</span><span>Serves: 5</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cans kidney beans (drained) or 1 cup dried (soaked overnight)</li>
+                <li>1 large onion, 1 can crushed tomatoes</li>
+                <li>1 tbsp ginger + 5 cloves garlic, 2 tbsp ghee or butter, 1 tsp cumin seeds</li>
+                <li>2 tsp garam masala, 1 tsp Kashmiri chili, 1 tsp coriander, 1 tsp turmeric, salt</li>
+                <li>Cilantro + lemon to finish, optional yogurt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Optional: bloom cumin seeds in ghee 30 sec, brown onion 5 min, garlic + ginger + spices 1 min. Pour into crock pot.</li>
+                <li>Add kidney beans + tomatoes + 1 cup water. LOW 6&ndash;8 hrs.</li>
+                <li>Mash 1/4 of beans to thicken gravy.</li>
+                <li>Lemon + cilantro. Serve over basmati with achaar.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+    </div>
+      </div><!-- /method-group-body mg-crockpot -->
+    </div><!-- /method-group mg-crockpot -->
+
+    <!-- METHOD: NO-COOK SAUCES (carried + new) -->
+    <div class="method-group mg-nocook">
+      <div class="method-group-header">
+        <span class="mg-icon">&#129379;</span> No-Cook Sauces &amp; Pickles &mdash; Make Once, Use All Week
+        <span class="mg-meta">Phase 3 sauces + 2 new Phase 4 staples (Tzatziki, Hummus)</span>
+      </div>
+      <div class="method-group-body">
+    <div class="recipe-grid">
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-nocook">No Cook</span><span class="recipe-tag recipe-tag-day">FRESH</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Tzatziki (Greek Yogurt Sauce)</div>
+              <div class="recipe-meta"><span>10 min</span><span>Stores: 5 days</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cups thick Greek yogurt (Fage 5%)</li>
+                <li>1 English cucumber (grated, then SQUEEZED dry in a kitchen towel &mdash; this is the critical step)</li>
+                <li>3 cloves garlic (microplaned or finely minced)</li>
+                <li>1 tbsp olive oil, juice of 1 lemon, 2 tbsp fresh dill (or mint), salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Grate cucumber, salt lightly, let sit 10 min in a sieve. Squeeze HARD in a clean towel until you can&rsquo;t get more water out.</li>
+                <li>Combine all ingredients. Rest 30 min minimum &mdash; flavor blooms.</li>
+                <li>Goes on: Greek lemon chicken, lamb kofta, shawarma, falafel bowls, roasted veg, eggs, pita.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">Cucumber as dressing carrier (not "featured raw vegetable") &mdash; sidesteps Scotty&rsquo;s "no cucumber as star" rule.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-nocook">No Cook</span><span class="recipe-tag recipe-tag-day">PANTRY</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">From-Scratch Hummus</div>
+              <div class="recipe-meta"><span>10 min</span><span>Stores: 7 days</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 can chickpeas (drained, RESERVE liquid &mdash; aquafaba)</li>
+                <li>1/3 cup tahini (well-stirred &mdash; oil should be incorporated)</li>
+                <li>3 tbsp lemon juice, 2 cloves garlic, 1/2 tsp ground cumin, 1/4 tsp salt</li>
+                <li>3&ndash;5 tbsp ice water (this is the texture secret)</li>
+                <li>For top: olive oil, paprika, parsley, pine nuts, whole chickpeas</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Process tahini + lemon + garlic + salt in food processor 1 min &mdash; it should turn pale and creamy.</li>
+                <li>Add chickpeas + cumin, process 2 min. Drizzle in ice water 1 tbsp at a time until silky.</li>
+                <li>For ULTRA-smooth: pinch the chickpea skins off first (5 min, worth it once).</li>
+                <li>Plate with swoosh, drizzle olive oil, dust paprika, scatter parsley + reserved chickpeas. 10x better than store-bought.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-nocook">No Cook</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">All-Purpose Tahini Sauce</div>
+              <div class="recipe-meta"><span>5 min</span><span>Serves: 6&ndash;8</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1/4 cup tahini, 2 tbsp lemon juice, 1 garlic clove (minced), 2&ndash;4 tbsp cold water, salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Combine tahini, lemon, garlic, salt. Whisk &mdash; it will seize first.</li>
+                <li>Add water 1 tbsp at a time until drizzle consistency. Stores 5 days.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-nocook">No Cook</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Quick Pickled Red Onions</div>
+              <div class="recipe-meta"><span>5 min + 30 min set</span><span>Stores: 2 weeks</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 red onion (sliced thin), 1/2 cup apple cider vinegar, 1/2 cup warm water, 1 tbsp sugar, 1 tsp salt</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Slice onion, pack into mason jar.</li>
+                <li>Mix warm water + vinegar + sugar + salt. Pour over onions. Refrigerate 30 min+.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-nocook">No Cook</span><span class="recipe-tag recipe-tag-carried">PHASE 3</span></div>
+              <div class="recipe-name">Miso Dressing</div>
+              <div class="recipe-meta"><span>3 min</span><span>Serves: 4</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>1 tbsp white miso, 1 tbsp rice vinegar, 1 tbsp olive oil, 1 tsp sesame oil, 1 tsp honey</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Whisk all ingredients until smooth. Drizzle over arugula salad. Stores 5 days.</li>
+              </ol>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+
+          <div class="recipe-card" onclick="toggleRecipe(this)">
+            <div class="recipe-head">
+              <div class="recipe-tags"><span class="recipe-tag recipe-tag-med">Mediterranean</span><span class="recipe-tag recipe-tag-nocook">No Cook</span><span class="recipe-tag recipe-tag-day">SALAD</span><span class="recipe-tag recipe-tag-new">NEW</span></div>
+              <div class="recipe-name">Mediterranean Chickpea Salad</div>
+              <div class="recipe-meta"><span>10 min</span><span>Stores: 4 days</span></div>
+              <div class="recipe-expand-hint">tap to expand recipe</div>
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-section-title">Ingredients</div>
+              <ul class="recipe-ingredients">
+                <li>2 cans chickpeas (drained, rinsed, dried)</li>
+                <li>1 pint cherry tomatoes (halved), 1/2 red onion (diced fine, soaked 5 min in water then drained &mdash; kills harsh bite)</li>
+                <li>1/2 cup kalamata olives (pitted, halved), 1 cup feta (cubed)</li>
+                <li>1/4 cup olive oil, 2 tbsp red wine vinegar, 1 tbsp lemon juice, 1 tsp dried oregano, salt + pepper</li>
+                <li>Fresh parsley, mint (optional)</li>
+              </ul>
+              <div class="recipe-section-title">Method</div>
+              <ol class="recipe-method">
+                <li>Whisk dressing: olive oil + vinegar + lemon + oregano + salt + pepper.</li>
+                <li>Toss chickpeas + tomatoes + onion + olives + feta with dressing. Rest 15 min.</li>
+                <li>Fold in parsley + mint at the end. Eat as side, in pita pockets, or over arugula. Better day 2.</li>
+              </ol>
+              <p class="section-text" style="margin-top:8px;font-size:11px;color:var(--text-dim);font-style:italic;">No-cook lunch hero. Onion-soak trick lets Scotty actually eat raw onion without it dominating.</p>
+              <button class="recipe-print-btn" onclick="printRecipe(this, event)">&#128424; Print</button>
+            </div>
+          </div>
+    </div>
+      </div><!-- /method-group-body mg-nocook -->
+    </div><!-- /method-group mg-nocook -->
 
 
     </div><!-- /sub-content -->
