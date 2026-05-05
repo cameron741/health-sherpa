@@ -1089,3 +1089,46 @@
 
           @media (max-width: 900px) { .week-grid { grid-template-columns: repeat(4, 1fr); } }
           @media (max-width: 600px) { .week-grid { grid-template-columns: repeat(2, 1fr); } }
+
+          /* ──── COOKING METHOD GROUP BUCKETS ──── */
+          .method-group {
+            margin: 24px 0; border-radius: 14px; overflow: hidden;
+            border: 1px solid var(--border); background: rgba(255,255,255,0.015);
+          }
+          .method-group-header {
+            display: flex; align-items: center; gap: 12px;
+            padding: 14px 18px; font-size: 14px; font-weight: 800;
+            letter-spacing: 0.06em; text-transform: uppercase;
+            border-bottom: 1px solid var(--border);
+          }
+          .method-group-header .mg-icon { font-size: 22px; line-height: 1; }
+          .method-group-header .mg-meta {
+            margin-left: auto; font-size: 10px; font-weight: 600;
+            color: var(--text-dim); text-transform: none; letter-spacing: 0;
+          }
+          .method-group-body { padding: 16px; }
+          .method-group-body .recipe-grid { margin: 0; }
+
+          /* Method-specific accent colors */
+          .mg-batch .method-group-header { background: rgba(245,158,11,0.10); color: var(--phase3); border-bottom-color: rgba(245,158,11,0.18); }
+          .mg-pressure .method-group-header { background: rgba(59,130,246,0.10); color: var(--phase1); border-bottom-color: rgba(59,130,246,0.18); }
+          .mg-crockpot .method-group-header { background: rgba(16,185,129,0.10); color: var(--phase2); border-bottom-color: rgba(16,185,129,0.18); }
+          .mg-stovetop .method-group-header { background: rgba(167,139,250,0.10); color: var(--northstar); border-bottom-color: rgba(167,139,250,0.18); }
+          .mg-nocook .method-group-header { background: rgba(100,116,139,0.10); color: var(--text-muted); border-bottom-color: rgba(100,116,139,0.18); }
+          .mg-fish .method-group-header { background: rgba(34,211,238,0.10); color: var(--mediterranean); border-bottom-color: rgba(34,211,238,0.18); }
+
+          [data-theme="light"] .method-group { background: #fff; }
+
+          /* ──── EXPANSION BANNER (Phase 4 cuisine intros) ──── */
+          .cuisine-banner {
+            display: flex; align-items: center; gap: 14px;
+            padding: 16px 20px; border-radius: 12px; margin: 28px 0 14px;
+            border: 1px solid var(--border);
+          }
+          .cuisine-banner-icon { font-size: 28px; line-height: 1; }
+          .cuisine-banner-title { font-size: 16px; font-weight: 800; letter-spacing: 0.04em; }
+          .cuisine-banner-desc { font-size: 12px; color: var(--text-muted); margin-top: 2px; line-height: 1.5; }
+          .cuisine-banner-med { background: rgba(34,211,238,0.06); border-color: rgba(34,211,238,0.18); }
+          .cuisine-banner-med .cuisine-banner-title { color: var(--mediterranean); }
+          .cuisine-banner-indian { background: rgba(251,146,60,0.06); border-color: rgba(251,146,60,0.18); }
+          .cuisine-banner-indian .cuisine-banner-title { color: var(--indian); }

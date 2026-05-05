@@ -9,3 +9,5 @@ Thumbs.db
 # Temp/backup files
 *.bak
 merged_complete.html
+index_backup_prerestructure.html
+index_backup*.html
